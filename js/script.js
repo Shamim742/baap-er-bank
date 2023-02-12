@@ -14,9 +14,9 @@ document.getElementById('btn-submit').addEventListener('click',function(){
     // Danger:do not verify email password on the client side
     // step-4: verify email and password check valid user or not
     if (email == 'shamimislam2742@gmail.com' && password == 'shamim2742'){
-        console.log('valid user');
+        window.location.href = 'bank.html'
     }
     else{
-        console.log('Invalid user')
+        alert('Baap er bank er password mone rakhos nai')
     }
 })
