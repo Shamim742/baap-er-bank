@@ -1,3 +1,15 @@
+/**
+ 1.add event handler with the withdraw button
+ 2.get the withdraw amount from the withdraw input field
+ 2.a. also make sure to convert the input into number by parseFloat
+ 3.get previousWithdraw  total
+ 4. calculate total withdraw amount
+ 4.a.set total withdraw amount
+ 5.get the previous balance total
+ 6.calculate new balance total
+ 6.5. set the new balance total
+ 7.clear the input field
+ */
 //  step-1:
 document.getElementById('btn-withdraw').addEventListener('click', function(){
     // step-2:
